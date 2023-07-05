@@ -1,0 +1,367 @@
+{
+  "factions": [
+    {
+      "name": "Adepta Sororitas",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Adeptus Custodes",
+      "units": [
+        {
+          "name": "Aleya",
+          "composition": [
+            "1 model .............................................................. 80 pts"
+          ]
+        },
+        {
+          "name": "Allarus Custodians",
+          "composition": [
+            "2 models .......................................................... 130 pts",
+            "3 models .......................................................... 195 pts",
+            "5 models .......................................................... 325 pts",
+            "6 models .......................................................... 390 pts"
+          ]
+        },
+        {
+          "name": "Anathema Psykana Rhino",
+          "composition": [
+            "1 model .............................................................. 75 pts"
+          ]
+        },
+        {
+          "name": "Blade Champion",
+          "composition": [
+            "1 model ............................................................ 100 pts"
+          ]
+        },
+        {
+          "name": "Custodian Guard",
+          "composition": [
+            "4 models .......................................................... 180 pts",
+            "5 models .......................................................... 225 pts",
+            "9 models .......................................................... 405 pts",
+            "10 models ....................................................... 450 pts"
+          ]
+        },
+        {
+          "name": "Custodian Wardens",
+          "composition": [
+            "3 models .......................................................... 150 pts",
+            "6 models .......................................................... 300 pts"
+          ]
+        },
+        {
+          "name": "Knight-Centura",
+          "composition": [
+            "1 model .............................................................. 75 pts"
+          ]
+        },
+        {
+          "name": "Prosecutors",
+          "composition": [
+            "4 models ............................................................ 40 pts",
+            "5 models ............................................................ 50 pts",
+            "9 models ............................................................ 90 pts",
+            "10 models ....................................................... 100 pts"
+          ]
+        },
+        {
+          "name": "Shield-Captain",
+          "composition": [
+            "1 model ............................................................ 120 pts"
+          ]
+        },
+        {
+          "name": "Shield-Captain in Allarus Terminator Armour",
+          "composition": [
+            "1 model ............................................................ 120 pts"
+          ]
+        },
+        {
+          "name": "Shield-Captain on Dawneagle Jetbike",
+          "composition": [
+            "1 model ............................................................ 145 "
+          ]
+        },
+        {
+          "name": "Trajann Valoris",
+          "composition": [
+            "1 model ............................................................ 145 pts"
+          ]
+        },
+        {
+          "name": "Valerian",
+          "composition": [
+            "1 model ............................................................ 115 pts"
+          ]
+        },
+        {
+          "name": "Venerable Contemptor Dreadnought",
+          "composition": [
+            "1 model ............................................................ 185 pts"
+          ]
+        },
+        {
+          "name": "Venerable Land Raider",
+          "composition": [
+            "1 model ............................................................ 260 pts"
+          ]
+        },
+        {
+          "name": "Vertus Praetors",
+          "composition": [
+            "2 models .......................................................... 180 pts",
+            "3 models .......................................................... 270 pts",
+            "5 models .......................................................... 450 pts",
+            "6 models .......................................................... 540 pts"
+          ]
+        },
+        {
+          "name": "Vigilators",
+          "composition": [
+            "4 models ............................................................ 60 pts",
+            "5 models ............................................................ 75 pts",
+            "9 models .......................................................... 135 pts",
+            "10 models ....................................................... 150 pts"
+          ]
+        },
+        {
+          "name": "Witchseekers",
+          "composition": [
+            "4 models ............................................................ 60 pts",
+            "5 models ............................................................ 75 pts",
+            "9 models .......................................................... 135 pts",
+            "10 models ....................................................... 150 pts"
+          ]
+        },
+        {
+          "name": "Agamatus Custodians",
+          "composition": [
+            "3 models .......................................................... 280 pts",
+            "6 models .......................................................... 560 pts"
+          ]
+        },
+        {
+          "name": "Aquilon Custodians",
+          "composition": [
+            "3 models .......................................................... 230 pts",
+            "6 models .......................................................... 460 "
+          ]
+        },
+        {
+          "name": "Ares Gunship",
+          "composition": [
+            "1 model ............................................................ 580 pts"
+          ]
+        },
+        {
+          "name": "Caladius Grav-tank",
+          "composition": [
+            "1 model ............................................................ 215 pts"
+          ]
+        },
+        {
+          "name": "Contemptor-Achillus Dreadnought",
+          "composition": [
+            "1 model ............................................................ 155 pts"
+          ]
+        },
+        {
+          "name": "Contemptor-Galatus Dreadnought",
+          "composition": [
+            "1 model ............................................................ 175 pts"
+          ]
+        },
+        {
+          "name": "Coronus Grav-carrier",
+          "composition": [
+            "1 model ............................................................ 200 pts"
+          ]
+        },
+        {
+          "name": "Custodian Guard with Adrasite  ",
+          "composition": []
+        },
+        {
+          "name": "and Pyrithite Spears",
+          "composition": [
+            "5 models .......................................................... 325 pts"
+          ]
+        },
+        {
+          "name": "Orion Assault Dropship",
+          "composition": [
+            "1 model ............................................................ 690 pts"
+          ]
+        },
+        {
+          "name": "Pallas Grav-attack",
+          "composition": [
+            "1 model ............................................................ 120 pts"
+          ]
+        },
+        {
+          "name": "Sagittarum Custodians",
+          "composition": [
+            "5 models .......................................................... 250 pts"
+          ]
+        },
+        {
+          "name": "Telemon Heavy Dreadnought",
+          "composition": [
+            "1 model ............................................................ 235 pts"
+          ]
+        },
+        {
+          "name": "Shield Host",
+          "composition": [
+            "Ceaseless Hunter ............................................ 30 pts",
+            "Inspirational Exemplar .................................. 10 pts",
+            "Unstoppable Destroyer ................................. 25 pts",
+            "Veiled Blade ...................................................... 25 pts"
+          ]
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Venatari Custodians",
+          "composition": [
+            "3 models .......................................................... 235 pts",
+            "6 models .......................................................... 470 pts"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adeptus Mechanicus",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Adeptus Titanicus",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Aeldari",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Agents Of The Imperium",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Astra Militarum",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Black Templars",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Blood Angels",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Chaos Daemons",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Chaos Knights",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Chaos Space Marines",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Dark Angels",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Death Guard",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Deathwatch",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Drukhari",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Genestealer Cults",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Grey Knights",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Imperial Knights",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Leagues of Votann",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Necrons",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Orks",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Space Marines",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Space Wolves",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "T\u2019Au Empire",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Thousand Sons",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "Tyranids",
+      "units": [],
+      "enhancements": []
+    },
+    {
+      "name": "World Eaters",
+      "units": [],
+      "enhancements": []
+    }
+  ]
+}
