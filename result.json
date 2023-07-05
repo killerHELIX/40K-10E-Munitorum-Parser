@@ -214,21 +214,36 @@
           ]
         },
         {
-          "name": "Shield Host",
+          "name": "Venatari Custodians",
           "composition": [
-            "Ceaseless Hunter ............................................ 30 pts",
-            "Inspirational Exemplar .................................. 10 pts",
-            "Unstoppable Destroyer ................................. 25 pts",
-            "Veiled Blade ...................................................... 25 pts"
+            "3 models .......................................................... 235 pts",
+            "6 models .......................................................... 470 pts"
           ]
         }
       ],
       "enhancements": [
         {
-          "name": "Venatari Custodians",
+          "name": "Ceaseless Hunter",
           "composition": [
-            "3 models .......................................................... 235 pts",
-            "6 models .......................................................... 470 pts"
+            "30 pts"
+          ]
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "composition": [
+            "10 pts"
+          ]
+        },
+        {
+          "name": "Unstoppable Destroyer",
+          "composition": [
+            "25 pts"
+          ]
+        },
+        {
+          "name": "Veiled Blade",
+          "composition": [
+            "25 pts"
           ]
         }
       ]
