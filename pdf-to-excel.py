@@ -7,113 +7,26 @@ from pprint import pprint
 from PyPDF2 import PdfReader
 import pandas as pd
 
-def find_faction_page(faction, reader):
-    print(f"Finding faction {faction} with reader {reader}")
+# def create_datamodel(faction, page, reader, pages_to_parse):
 
-    for i in range(0, len(reader.pages)):
-        page = reader.pages[i]
-        text = page.extract_text()
-        lines = text.split("\n")
-        page_title = lines[0]
-        # print(page_title)
-        if page_title.upper() == faction.upper():
-            # pprint(lines)
-            # print(f"Found {faction} on page {i}")
-            return i
+#     df = pd.DataFrame()
 
+#     # Creating two columns
+#     df["Unit Faction"] = unit_faction
+#     df["Unit Name"] = unit_names
+#     df["Unit Cost"] = unit_points
+#     df["Enhancement Faction"] = enh_faction
+#     df["Enhancement Name"] = enh_names
+#     df["Enhancement Cost"] = enh_points
 
-def create_datamodel(faction, page, reader, pages_to_parse):
+#     # Converting to excel
+#     df.to_excel('result.xlsx', index = False)
 
-    unit_faction = []
-    enh_faction = []
-    unit_names = []
-    unit_points = []
-    enh_names = []
-    enh_points = []
-
-    # for i in range(page, page + pages_to_parse):
-    for i in range(0, len(reader.pages)):
-        page = reader.pages[i]
-
-        if i == 0: continue # Skip title page.
-
-        page = reader.pages[i]
-        text = page.extract_text()
-        lines = text.split("\n")
-        lines.pop() # Remove page number.
-
-        faction = clean_faction_name(lines[0])
-        print(f"Faction {faction}")
-
-        unit_name = ""
-        enhancements_found = False
-        for line in lines:
-            # print(line)
-            split = re.split(r"[.]+", line)
-
-            if len(split) == 1: # If the split only has one item, most of the time it's the unit name.
-                unit_name = clean_unit_name(split[0].strip())
-                if enhancements_found or unit_name == "DETACHMENT ENHANCEMENTS":
-                    enhancements_found = True
-                continue
-
-            # names.append(split[0].strip())
-            if len(split) > 1: 
-
-                first = split[0].strip().replace(" models", "").replace(" model", "")
-                last = split[1].strip().replace(" pts", "")
-                last_num = re.findall(r"\d+", last)[0]
-
-                if not enhancements_found:
-
-                    name = f"{first} {unit_name}" if not enhancements_found else f"{first}"
-                    name = re.sub("^1 ", "", name) # If a unit only has one model just remove the '1 '
-                    # print(name)
-                    unit_faction.append(faction)
-                    unit_names.append(name)
-                    unit_points.append(last_num)
-                    enh_faction.append("")
-                    enh_names.append("")
-                    enh_points.append("")
-                
-                else: # enhancements_found is true
-                    name = f"{first} {unit_name}" if not enhancements_found else f"{first}"
-                    name = re.sub("^1 ", "", name) # If a unit only has one model just remove the '1 '
-                    # print(name)
-                    unit_faction.append("")
-                    unit_names.append("")
-                    unit_points.append("")
-                    enh_faction.append(faction)
-                    enh_names.append(name)
-                    enh_points.append(last_num)
-
-                    unit_name = unit_name if (last.isnumeric()) else re.findall(r"\D+", last)[0]
-        
-    df = pd.DataFrame()
-
-    # Creating two columns
-    df["Unit Faction"] = unit_faction
-    df["Unit Name"] = unit_names
-    df["Unit Cost"] = unit_points
-    df["Enhancement Faction"] = enh_faction
-    df["Enhancement Name"] = enh_names
-    df["Enhancement Cost"] = enh_points
-
-    # Converting to excel
-    df.to_excel('result.xlsx', index = False)
-
-def clean_unit_name(unit_name):
-    return unit_name\
-        .replace("T ank", "Tank")\
-        .replace("T aurox", "Taurox")\
-        .replace("T arantula", "Tarantula")
-
-def clean_faction_name(faction):
-    return faction.replace("T'Au", "Tau").title().strip()
-
-
-
-def create_datamodel_2(reader):
+def create_datamodel(reader):
+    """
+    Creates a datamodel of all factions with their corresponding units, 
+    compositions, and enhancements.
+    """
 
     ALL_FACTIONS = [
         "Adepta Sororitas",
@@ -169,7 +82,8 @@ def create_datamodel_2(reader):
         lines.pop() # Remove page number.
         lines.pop(0) # Remove title.
 
-        if current_faction_name == "Adeptus Custodes": # Temporarily only generate for a certain faction.
+        # if current_faction_name == "Astra Militarum": # Temporarily only generate for a certain faction.
+        if True:
             print(f"Current faction: {current_faction_name}")
 
             # Default unit data structure.
@@ -179,10 +93,19 @@ def create_datamodel_2(reader):
             }
 
             is_enhancement = False # Enhancements treat their 'composition' differently.
+            line_wrapped = False # When a line wraps across multiple lines the lines after the first should be ignored.
 
-            for line in lines:
+            # for line in lines:
+            for i in range(0, len(lines)):
+                line = lines[i]
 
-                print(line)
+
+                if line_wrapped: # If the line is wrapped, reset the line_wrapped state and skip this line.
+                    line_wrapped = False
+                    # print(f"SKIPPING {repr(line)}")
+                    continue
+
+                # print(repr(line))
 
                 is_enhancement = "DETACHMENT ENHANCEMENTS" in line or is_enhancement
                 if line in IGNORED_LINES: continue
@@ -194,53 +117,94 @@ def create_datamodel_2(reader):
                     continue
 
                 if re.search(r"[.]+", line): # Matches the general 'x models ........... 1234 pts' pattern.
-                    if not line.endswith("pts"): # Sometimes a parsing error can result in 'x models ...... 1234 ptsNew Unit Name'. Detect this and add & clear before continuing.
+                    if not (line.endswith("pts") or line.endswith("pts ")): # Sometimes a parsing error can result in 'x models ...... 1234 ptsNew Unit Name'. Detect this and add & clear before continuing.
                         split = re.split(r"pts", line)
                         current_unit["composition"].append(split[0])
                         current_unit = add_unit_and_clear(current_unit, current_faction["units"])
-                        current_unit["name"] = split[1]
+                        current_unit["name"] = fix(split[1])
                     else:
 
                         if is_enhancement: # Enhancements set their 'name' to the first half of their line and their 'composition' to the last half.
                             split = re.split(r"[.]+", line)
-                            current_unit["name"] = split[0].strip()
+                            current_unit["name"] = fix(split[0])
                             current_unit["composition"].append(split[1].strip())
                             current_unit = add_unit_and_clear(current_unit, current_faction["enhancements"])
                         else: # Not an enhancement so just add the entire line as is into the composition.
                             current_unit["composition"].append(line)
 
                 else: # Doesn't match the 'x models ..... 1234 pts' pattern - that means this must be the name of a unit.
-                    if current_unit["name"]: # If the current unit already has a 'name' key, then this is the name of the next unit. So add & clear.
+                    if current_unit["name"] and not is_multiline_composition(line): # If the current unit already has a 'name' key, then this is the name of the next unit. So add & clear.
                         current_unit = add_unit_and_clear(current_unit, current_faction["units"] if not is_enhancement else current_faction["enhancements"])
 
-                    current_unit["name"] = line # Then, add the line to the 'name' key.
+                    # Then, add the line to the 'name' key.
+                    if line.endswith(" "): # Detect if a name wrapped across multiple lines.
+                        line_wrapped = True;
+
+                        if is_multiline_composition(line):
+                            current_unit["composition"].append(f"{line.strip()} {lines[i + 1].strip()}")
+                            # print(current_unit)
+                        else:
+                            current_unit["name"] = f"{fix(line)} {fix(lines[i + 1])}"
+                    else:
+                        current_unit["name"] = fix(line)
 
     return model
+
+
 
 def add_unit_and_clear(unit, units):
     """
     Adds a provided unit to the provided list 'units', then returns a "cleared" (no data) unit.
     """
     units.append(unit)
-    print(f"Adding {unit['name']}")
+    # print(f"Adding {unit['name']}")
 
     # Clear current unit.
     return {
         "name": None,
         "composition": []
     }
+
+
+
+def fix(line):
+    """
+    Utility function to fix any oddities from the PDF parsing of provided text.
+    """
+    line = line.replace("T ank", "Tank")
+    line = line.replace("T aurox", "Taurox")
+    line = line.replace("T arantula", "Tarantula")
+    line = line.replace("Spore MInes", "Spore Mines")
+    return line.strip()
+
+
+
+def is_multiline_composition(line):
+    """
+    This function solely exists for the few units in the Munitorum PDF that have
+    one composition value wrapped across multiple lines.
+
+    Handling one of these is effectively the same as handling a unit name wrapped, but 
+    since this is a composition it has to be treated differently, hence this function's existence.
+
+    There has to be a better way than this.
+    """
+    return "Sword Brother" in line or "Inquisitorial Acolyte" in line
+
+
+
+def parse_unit_compositions(model):
+
+    pass
   
+
+
 if __name__ == "__main__":
     PDF = "Munitorum.pdf"
-    # # FACTION = "Black Templars"
-    # PAGES_TO_PARSE = 1
-
     reader = PdfReader(PDF)
 
-    # faction_page = find_faction_page(FACTION, reader)
-    # create_datamodel(FACTION, faction_page, reader, PAGES_TO_PARSE)
+    model = create_datamodel(reader)
+    # model = parse_unit_compositions(model)
 
-    model = create_datamodel_2(reader)
-    # pprint(model)
     with open("result.json", "w") as outfile:
         json.dump(model, outfile, indent=2)
