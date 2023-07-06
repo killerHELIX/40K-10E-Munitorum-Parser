@@ -48,7 +48,7 @@ def create_datamodel(reader):
         "Genestealer Cults",
         "Grey Knights",
         "Imperial Knights",
-        "Leagues of Votann",
+        "Leagues Of Votann",
         "Necrons",
         "Orks",
         "Space Marines",

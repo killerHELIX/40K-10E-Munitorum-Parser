@@ -6573,7 +6573,54 @@
               "cost": "490"
             }
           ]
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Banner of Macharius Triumphant",
+          "composition": [
+            {
+              "cost": "30"
+            }
+          ]
         },
+        {
+          "name": "Mysterious Guardian",
+          "composition": [
+            {
+              "cost": "35"
+            }
+          ]
+        },
+        {
+          "name": "Mythic Hero",
+          "composition": [
+            {
+              "cost": "25"
+            }
+          ]
+        },
+        {
+          "name": "Revered Knight",
+          "composition": [
+            {
+              "cost": "20"
+            }
+          ]
+        },
+        {
+          "name": "Unyielding Paragon",
+          "composition": [
+            {
+              "cost": "40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leagues Of Votann",
+      "units": [
         {
           "name": "Br\u00f4khyr Iron-master",
           "composition": [
@@ -6701,46 +6748,6 @@
       ],
       "enhancements": [
         {
-          "name": "Banner of Macharius Triumphant",
-          "composition": [
-            {
-              "cost": "30"
-            }
-          ]
-        },
-        {
-          "name": "Mysterious Guardian",
-          "composition": [
-            {
-              "cost": "35"
-            }
-          ]
-        },
-        {
-          "name": "Mythic Hero",
-          "composition": [
-            {
-              "cost": "25"
-            }
-          ]
-        },
-        {
-          "name": "Revered Knight",
-          "composition": [
-            {
-              "cost": "20"
-            }
-          ]
-        },
-        {
-          "name": "Unyielding Paragon",
-          "composition": [
-            {
-              "cost": "40"
-            }
-          ]
-        },
-        {
           "name": "A Long List",
           "composition": [
             {
@@ -6773,11 +6780,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "Leagues of Votann",
-      "units": [],
-      "enhancements": []
     },
     {
       "name": "Necrons",
