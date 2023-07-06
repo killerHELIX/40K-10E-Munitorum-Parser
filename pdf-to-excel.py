@@ -194,16 +194,23 @@ def is_multiline_composition(line):
 
 
 def parse_unit_compositions(model):
+    """
+    Parses given model's unit compositions into data structures.
+    The model's unit compositions are assumed to be of the following pattern: 'x models ...... 123 pts'.
+    Essentially splits that string by the '.....' and assigns each side to a key/value pair.
+
+    For enhancements, there is no "count" - only "cost".
+    """
 
     for faction in model["factions"]:
         for unit in faction["units"]:
 
             new_composition = []
-            for entry in unit["composition"]:
+            for entry in unit["composition"]: # Reorganize unit compositions.
                 new_entry = { "count": None, "cost": None }
                 [ new_entry["count"], new_entry["cost"] ] = re.split(r"[.]+", entry)
                 new_entry["count"] = new_entry["count"].strip()
-                new_entry["cost"] = re.findall(r"\d+", new_entry["cost"])[0]
+                new_entry["cost"] = re.findall(r"\d+", new_entry["cost"])[0] # Only take numbers for the cost.
                 new_composition.append(new_entry)
             
             unit["composition"] = new_composition
@@ -211,9 +218,9 @@ def parse_unit_compositions(model):
         for enhancement in faction["enhancements"]:
 
             new_composition = []
-            for entry in enhancement["composition"]:
+            for entry in enhancement["composition"]: # Reorganize enhancement "compositions".
                 new_entry = { "cost": None }
-                new_entry["cost"] = re.findall(r"\d+", entry)[0]
+                new_entry["cost"] = re.findall(r"\d+", entry)[0] # Only take numbers for the cost.
                 new_composition.append(new_entry)
             
             enhancement["composition"] = new_composition
@@ -223,6 +230,9 @@ def parse_unit_compositions(model):
 
 
 def write_json(model):
+    """
+    Writes the given model to a json output.
+    """
     with open("result.json", "w") as outfile:
         json.dump(model, outfile, indent=2)
 
@@ -230,8 +240,21 @@ def write_json(model):
 
 
 def write_xlsx(model):
+    """
+    Writes the given model to an xlsx output with the following structure:
+
+    | Unit Faction | Unit Name | Unit Cost | Enhancement Faction | Enhancement Name | Enhancement Cost |
+    ====================================================================================================
+    |     ...      |    ...    |     ...   |         ...         |       ...        |       ...        |
+    ----------------------------------------------------------------------------------------------------
+    |     ...      |    ...    |     ...   |         ...         |       ...        |       ...        |
+    ----------------------------------------------------------------------------------------------------
+
+    """
+
     df = pd.DataFrame()
 
+    # Initialize column lists.
     unit_faction = []
     unit_names = []
     unit_cost = []
@@ -246,20 +269,24 @@ def write_xlsx(model):
                 unit_faction.append(faction["name"])
                 unit_names.append(f"{unit['name']} - {entry['count']}")
                 unit_cost.append(entry["cost"])
+                
+                # The dataframe has to have columns equal size, so add blanks to Enhancement while adding actual data to Units.
                 enh_faction.append("")
                 enh_names.append("")
                 enh_cost.append("")
 
         for enhancement in faction["enhancements"]:
             for entry in enhancement["composition"]:
+                # The dataframe has to have columns equal size, so add blanks to Units while adding actual data to Enhancements.
                 unit_faction.append("")
                 unit_names.append("")
                 unit_cost.append("")
+
                 enh_faction.append(faction["name"])
                 enh_names.append(f"{enhancement['name']}")
                 enh_cost.append(entry["cost"])
 
-    # Creating two columns
+    # Assign columns.
     df["Unit Faction"] = unit_faction
     df["Unit Name"] = unit_names
     df["Unit Cost"] = unit_cost
@@ -267,17 +294,15 @@ def write_xlsx(model):
     df["Enhancement Name"] = enh_names
     df["Enhancement Cost"] = enh_cost
 
-    # Converting to excel
     df.to_excel('result.xlsx', index = False)
 
 
 if __name__ == "__main__":
-    PDF = "Munitorum.pdf"
+    PDF = "Munitorum.pdf" 
     reader = PdfReader(PDF)
 
     model = create_datamodel(reader)
     model = parse_unit_compositions(model)
-
 
     write_json(model)
     write_xlsx(model)
