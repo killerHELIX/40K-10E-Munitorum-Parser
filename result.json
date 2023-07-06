@@ -140,7 +140,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "140"
+              "cost": "170"
             }
           ]
         },
@@ -1351,7 +1351,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "125"
+              "cost": "150"
             }
           ]
         },
@@ -1436,7 +1436,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "140"
+              "cost": "170"
             }
           ]
         },
@@ -1564,7 +1564,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "85"
+              "cost": "105"
             }
           ]
         },
@@ -1779,7 +1779,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "370"
+              "cost": "475"
             }
           ]
         },
@@ -1851,7 +1851,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "385"
+              "cost": "440"
             }
           ]
         },
@@ -2192,7 +2192,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "110"
+              "cost": "135"
             }
           ]
         },
@@ -2289,7 +2289,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "135"
+              "cost": "160"
             }
           ]
         },
@@ -2307,7 +2307,7 @@
           "composition": [
             {
               "count": "2 models",
-              "cost": "100"
+              "cost": "120"
             }
           ]
         },
@@ -2464,7 +2464,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "105"
+              "cost": "125"
             }
           ]
         },
@@ -2705,7 +2705,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "90"
+              "cost": "110"
             }
           ]
         },
@@ -2732,7 +2732,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "130"
+              "cost": "160"
             }
           ]
         },
@@ -2776,7 +2776,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "70"
+              "cost": "80"
             }
           ]
         },
@@ -2875,7 +2875,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "65"
+              "cost": "80"
             }
           ]
         },
@@ -2884,7 +2884,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "225"
+              "cost": "275"
             }
           ]
         },
@@ -3144,10 +3144,10 @@
           "composition": [
             {
               "count": "5 models",
-              "cost": "150"
+              "cost": "165"
             },
             {
-              "count": "11 models",
+              "count": "10 models",
               "cost": "330"
             }
           ]
@@ -4013,7 +4013,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "395"
+              "cost": "455"
             }
           ]
         },
@@ -4022,7 +4022,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "390"
+              "cost": "450"
             }
           ]
         },
@@ -4031,7 +4031,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "410"
+              "cost": "470"
             }
           ]
         },
@@ -4049,7 +4049,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "485"
+              "cost": "555"
             }
           ]
         },
@@ -4103,7 +4103,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "730"
+              "cost": "840"
             }
           ]
         },
@@ -4112,7 +4112,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "645"
+              "cost": "740"
             }
           ]
         },
@@ -4121,7 +4121,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "405"
+              "cost": "465"
             }
           ]
         },
@@ -4130,7 +4130,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "405"
+              "cost": "465"
             }
           ]
         },
@@ -4139,7 +4139,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "420"
+              "cost": "480"
             }
           ]
         },
@@ -4148,7 +4148,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "405"
+              "cost": "465"
             }
           ]
         },
@@ -4157,7 +4157,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "405"
+              "cost": "465"
             }
           ]
         },
@@ -4166,7 +4166,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "440"
+              "cost": "505"
             }
           ]
         },
@@ -4504,7 +4504,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "420"
+              "cost": "480"
             }
           ]
         },
@@ -5231,6 +5231,10 @@
             {
               "count": "5 models",
               "cost": "100"
+            },
+            {
+              "count": "7 models",
+              "cost": "140"
             },
             {
               "count": "10 models",
@@ -6290,11 +6294,11 @@
           "composition": [
             {
               "count": "5 models",
-              "cost": "165"
+              "cost": "190"
             },
             {
               "count": "10 models",
-              "cost": "275"
+              "cost": "320"
             }
           ]
         },
@@ -6413,7 +6417,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "405"
+              "cost": "490"
             }
           ]
         },
@@ -6422,7 +6426,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "495"
+              "cost": "565"
             }
           ]
         },
@@ -6431,7 +6435,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "415"
+              "cost": "475"
             }
           ]
         },
@@ -6440,7 +6444,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "375"
+              "cost": "430"
             }
           ]
         },
@@ -6458,7 +6462,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "390"
+              "cost": "450"
             }
           ]
         },
@@ -6467,7 +6471,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "375"
+              "cost": "430"
             }
           ]
         },
@@ -6476,7 +6480,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "490"
+              "cost": "565"
             }
           ]
         },
@@ -6485,7 +6489,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "420"
+              "cost": "480"
             }
           ]
         },
@@ -6494,7 +6498,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "730"
+              "cost": "840"
             }
           ]
         },
@@ -6503,7 +6507,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "645"
+              "cost": "745"
             }
           ]
         },
@@ -6521,7 +6525,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "385"
+              "cost": "445"
             }
           ]
         },
@@ -6530,7 +6534,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "385"
+              "cost": "440"
             }
           ]
         },
@@ -6539,7 +6543,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "425"
+              "cost": "485"
             }
           ]
         },
@@ -6548,7 +6552,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "430"
+              "cost": "495"
             }
           ]
         },
@@ -6557,7 +6561,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "390"
+              "cost": "450"
             }
           ]
         },
@@ -6566,7 +6570,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "425"
+              "cost": "490"
             }
           ]
         },
@@ -7332,7 +7336,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "470"
+              "cost": "540"
             }
           ]
         },
@@ -7773,7 +7777,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "305"
+              "cost": "350"
             }
           ]
         },
@@ -8434,11 +8438,11 @@
           "composition": [
             {
               "count": "5 models",
-              "cost": "120"
+              "cost": "170"
             },
             {
               "count": "10 models",
-              "cost": "240"
+              "cost": "340"
             }
           ]
         },
@@ -9313,7 +9317,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "125"
+              "cost": "150"
             }
           ]
         },
@@ -10086,7 +10090,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "405"
+              "cost": "465"
             }
           ]
         },
@@ -10215,7 +10219,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "685"
+              "cost": "790"
             }
           ]
         },
@@ -10618,15 +10622,15 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "40"
+              "cost": "65"
             },
             {
               "count": "2 models",
-              "cost": "80"
+              "cost": "130"
             },
             {
               "count": "3 models",
-              "cost": "120"
+              "cost": "195"
             }
           ]
         },
@@ -10701,7 +10705,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "170"
+              "cost": "230"
             }
           ]
         },
@@ -11225,7 +11229,7 @@
           "composition": [
             {
               "count": "1 model",
-              "cost": "420"
+              "cost": "525"
             }
           ]
         },
