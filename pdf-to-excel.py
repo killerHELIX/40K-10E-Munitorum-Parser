@@ -1,26 +1,11 @@
 # importing required modules
 import json
 import re
-import csv
 
 from pprint import pprint
 from PyPDF2 import PdfReader
 import pandas as pd
 
-# def create_datamodel(faction, page, reader, pages_to_parse):
-
-#     df = pd.DataFrame()
-
-#     # Creating two columns
-#     df["Unit Faction"] = unit_faction
-#     df["Unit Name"] = unit_names
-#     df["Unit Cost"] = unit_points
-#     df["Enhancement Faction"] = enh_faction
-#     df["Enhancement Name"] = enh_names
-#     df["Enhancement Cost"] = enh_points
-
-#     # Converting to excel
-#     df.to_excel('result.xlsx', index = False)
 
 def create_datamodel(reader):
     """
@@ -102,7 +87,6 @@ def create_datamodel(reader):
 
                 if line_wrapped: # If the line is wrapped, reset the line_wrapped state and skip this line.
                     line_wrapped = False
-                    # print(f"SKIPPING {repr(line)}")
                     continue
 
                 # print(repr(line))
