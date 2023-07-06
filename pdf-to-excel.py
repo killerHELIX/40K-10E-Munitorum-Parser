@@ -207,13 +207,68 @@ def parse_unit_compositions(model):
                 new_composition.append(new_entry)
             
             unit["composition"] = new_composition
+
+        for enhancement in faction["enhancements"]:
+
+            new_composition = []
+            for entry in enhancement["composition"]:
+                new_entry = { "cost": None }
+                new_entry["cost"] = re.findall(r"\d+", entry)[0]
+                new_composition.append(new_entry)
+            
+            enhancement["composition"] = new_composition
     
     return model
 
 
 
+def write_json(model):
+    with open("result.json", "w") as outfile:
+        json.dump(model, outfile, indent=2)
 
-  
+
+
+
+def write_xlsx(model):
+    df = pd.DataFrame()
+
+    unit_faction = []
+    unit_names = []
+    unit_cost = []
+    enh_faction = []
+    enh_names = []
+    enh_cost = []
+
+
+    for faction in model["factions"]:
+        for unit in faction["units"]:
+            for entry in unit["composition"]:
+                unit_faction.append(faction["name"])
+                unit_names.append(f"{unit['name']} - {entry['count']}")
+                unit_cost.append(entry["cost"])
+                enh_faction.append("")
+                enh_names.append("")
+                enh_cost.append("")
+
+        for enhancement in faction["enhancements"]:
+            for entry in enhancement["composition"]:
+                unit_faction.append("")
+                unit_names.append("")
+                unit_cost.append("")
+                enh_faction.append(faction["name"])
+                enh_names.append(f"{enhancement['name']}")
+                enh_cost.append(entry["cost"])
+
+    # Creating two columns
+    df["Unit Faction"] = unit_faction
+    df["Unit Name"] = unit_names
+    df["Unit Cost"] = unit_cost
+    df["Enhancement Faction"] = enh_faction
+    df["Enhancement Name"] = enh_names
+    df["Enhancement Cost"] = enh_cost
+
+    # Converting to excel
+    df.to_excel('result.xlsx', index = False)
 
 
 if __name__ == "__main__":
@@ -223,5 +278,7 @@ if __name__ == "__main__":
     model = create_datamodel(reader)
     model = parse_unit_compositions(model)
 
-    with open("result.json", "w") as outfile:
-        json.dump(model, outfile, indent=2)
+
+    write_json(model)
+    write_xlsx(model)
+

@@ -340,25 +340,33 @@
         {
           "name": "Blade of Saint Ellynor",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Litanies of Faith",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Mantle of Ophelia",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Saintly Example",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         }
       ]
@@ -738,25 +746,33 @@
         {
           "name": "Ceaseless Hunter",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Inspirational Exemplar",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Unstoppable Destroyer",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Veiled Blade",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         }
       ]
@@ -1090,25 +1106,33 @@
         {
           "name": "Archived Purge Protocols",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Excoriating Emanation",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Master Annihilator",
           "composition": [
-            "35 pts"
+            {
+              "cost": "35"
+            }
           ]
         },
         {
           "name": "Omni-steriliser",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         }
       ]
@@ -1889,25 +1913,33 @@
         {
           "name": "Fate\u2019s Messenger",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Reader of the Runes",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "The Phoenix Gem",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "The Weeping Stones",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         }
       ]
@@ -2949,25 +2981,33 @@
         {
           "name": "Death Mask of Ollanius",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Drill Commander",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Grand Strategist",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Kurov\u2019s Aquila",
           "composition": [
-            "40 pts"
+            {
+              "cost": "40"
+            }
           ]
         }
       ]
@@ -3126,25 +3166,33 @@
         {
           "name": "Perdition\u2019s Edge",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Sigismund\u2019s Seal",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "T\u00e4nnhauser\u2019s Bones",
           "composition": [
-            "35 pts"
+            {
+              "cost": "35"
+            }
           ]
         },
         {
           "name": "Witchseeker Bolts",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         }
       ]
@@ -3344,25 +3392,33 @@
         {
           "name": "Archangel\u2019s Shard",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Artisan of War",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Icon of the Angel",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Visage of Death",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         }
       ]
@@ -3918,25 +3974,33 @@
         {
           "name": "A\u2019rgath, the King of Blades",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Soulstealer",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "The Endless Gift",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "The Everstave",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         }
       ]
@@ -4120,25 +4184,33 @@
         {
           "name": "Lord of Dread",
           "composition": [
-            "35 pts"
+            {
+              "cost": "35"
+            }
           ]
         },
         {
           "name": "Aura of Terror",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "The Traitor\u2019s Mark",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Panoply of the Cursed Knight",
           "composition": [
-            "40 pts"
+            {
+              "cost": "40"
+            }
           ]
         }
       ]
@@ -4636,31 +4708,41 @@
         {
           "name": "Eye of Tzeentch",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Intoxicating Elixir",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Liber Hereticus",
           "composition": [
-            "40 pts"
+            {
+              "cost": "40"
+            }
           ]
         },
         {
           "name": "Orbs of Unlife",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Talisman of Burning Blood",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         }
       ]
@@ -4855,25 +4937,33 @@
         {
           "name": "Heavenfall Blade",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Pennant of Remembrance",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Shroud of Heroes",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Stubborn Tenacity",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         }
       ]
@@ -5202,25 +5292,33 @@
         {
           "name": "Deadly Pathogen",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Living Plague",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Shamblerot",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "The Droning",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         }
       ]
@@ -5360,25 +5458,33 @@
         {
           "name": "Beacon Angelis",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Osseus Key",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "The Tome of Ectoclades",
           "composition": [
-            "40 pts"
+            {
+              "cost": "40"
+            }
           ]
         },
         {
           "name": "Thief of Secrets",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         }
       ]
@@ -5652,25 +5758,33 @@
         {
           "name": "Crucible of Malediction",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Blood Dancer",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Labyrinthine Cunning",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "The Art of Pain",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         }
       ]
@@ -5909,25 +6023,33 @@
         {
           "name": "Focus of Adoration",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Inscrutable Cunning",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Meticulous Planner",
           "composition": [
-            "40 pts"
+            {
+              "cost": "40"
+            }
           ]
         },
         {
           "name": "Prowling Agitant",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         }
       ]
@@ -6234,25 +6356,33 @@
         {
           "name": "Domina Liber Daemonica",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "First to the Fray",
           "composition": [
-            "35 pts"
+            {
+              "cost": "35"
+            }
           ]
         },
         {
           "name": "Inescapable Wrath",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Sigil of Exigence",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         }
       ]
@@ -6569,55 +6699,73 @@
         {
           "name": "Banner of Macharius Triumphant",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Mysterious Guardian",
           "composition": [
-            "35 pts"
+            {
+              "cost": "35"
+            }
           ]
         },
         {
           "name": "Mythic Hero",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Revered Knight",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Unyielding Paragon",
           "composition": [
-            "40 pts"
+            {
+              "cost": "40"
+            }
           ]
         },
         {
           "name": "A Long List",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Appraising Glare",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Grim Demeanour",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Wayfarer\u2019s Grace",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         }
       ]
@@ -7202,25 +7350,33 @@
         {
           "name": "Hypermaterial Ablator",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Sempiternal Weave",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "The Sovereign Coronal",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Veil of Darkness",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         }
       ]
@@ -7907,25 +8063,33 @@
         {
           "name": "Follow Me Ladz",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Headwoppa\u2019s Killchoppa",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Kunnin\u2019 But Brutal",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Supa-Cybork Body",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         }
       ]
@@ -9176,25 +9340,33 @@
         {
           "name": "Adept of the Codex",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Artificer Armour",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Bolter Discipline",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "The Honour Vehement",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         }
       ]
@@ -9570,25 +9742,33 @@
         {
           "name": "Black Death",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Frost Weapon",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "The Pelt of Balewolf",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         },
         {
           "name": "Wolf Tail Talisman",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         }
       ]
@@ -10075,25 +10255,33 @@
         {
           "name": "Exemplar of the Kauyon",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Precision of the Patient Hunter",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Puretide Engram Neurochip",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Through Unity, Devastation",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         }
       ]
@@ -10378,25 +10566,33 @@
         {
           "name": "Arcane Vortex",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Athenaean Scrolls",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         },
         {
           "name": "Lord of Forbidden Lore",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Umbralefic Crystal",
           "composition": [
-            "20 pts"
+            {
+              "cost": "20"
+            }
           ]
         }
       ]
@@ -10929,25 +11125,33 @@
         {
           "name": "Adaptive Biology",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Alien Cunning",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Perfectly Adapted",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Synaptic Linchpin",
           "composition": [
-            "10 pts"
+            {
+              "cost": "10"
+            }
           ]
         }
       ]
@@ -11187,25 +11391,33 @@
         {
           "name": "Battle-lust",
           "composition": [
-            "15 pts"
+            {
+              "cost": "15"
+            }
           ]
         },
         {
           "name": "Berzerker Glaive",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         },
         {
           "name": "Favoured of Khorne",
           "composition": [
-            "30 pts"
+            {
+              "cost": "30"
+            }
           ]
         },
         {
           "name": "Helm of Brazen Ire",
           "composition": [
-            "25 pts"
+            {
+              "cost": "25"
+            }
           ]
         }
       ]
