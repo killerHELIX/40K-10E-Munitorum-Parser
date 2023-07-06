@@ -195,7 +195,24 @@ def is_multiline_composition(line):
 
 def parse_unit_compositions(model):
 
-    pass
+    for faction in model["factions"]:
+        for unit in faction["units"]:
+
+            new_composition = []
+            for entry in unit["composition"]:
+                new_entry = { "count": None, "cost": None }
+                [ new_entry["count"], new_entry["cost"] ] = re.split(r"[.]+", entry)
+                new_entry["count"] = new_entry["count"].strip()
+                new_entry["cost"] = re.findall(r"\d+", new_entry["cost"])[0]
+                new_composition.append(new_entry)
+            
+            unit["composition"] = new_composition
+    
+    return model
+
+
+
+
   
 
 
@@ -204,7 +221,7 @@ if __name__ == "__main__":
     reader = PdfReader(PDF)
 
     model = create_datamodel(reader)
-    # model = parse_unit_compositions(model)
+    model = parse_unit_compositions(model)
 
     with open("result.json", "w") as outfile:
         json.dump(model, outfile, indent=2)
