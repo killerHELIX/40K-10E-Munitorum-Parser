@@ -155,9 +155,7 @@ def fix(line):
     """
     Utility function to fix any oddities from the PDF parsing of provided text.
     """
-    line = line.replace("T ank", "Tank")
-    line = line.replace("T aurox", "Taurox")
-    line = line.replace("T arantula", "Tarantula")
+    line = line.replace("T a", "Ta")
     line = line.replace("Spore MInes", "Spore Mines")
     return line.strip()
 
@@ -209,6 +207,21 @@ def parse_unit_compositions(model):
             
             enhancement["composition"] = new_composition
     
+    return model
+
+def move_faction_to_end(faction_name, model):
+    """
+    Finds the given faction and moves it to the end of the given model's faction list.
+    This ordering matters for xlsx output - when FILTER queries are added together it concatenates them in the order they are found.
+    If these factions are at the end of the model's faction list, they will display last when in a FILTER query result.
+    This is preferential for the specific use cases of Space Marines and Agents of the Imperium.
+    """
+    factions = model["factions"]
+
+    faction = [ faction for faction in factions if faction["name"] == faction_name ][0]
+    factions.remove(faction)
+    factions.append(faction)
+
     return model
 
 
@@ -287,6 +300,9 @@ if __name__ == "__main__":
 
     model = create_datamodel(reader)
     model = parse_unit_compositions(model)
+    model = move_faction_to_end("Chaos Space Marines", model)
+    model = move_faction_to_end("Space Marines", model)
+    model = move_faction_to_end("Agents Of The Imperium", model)
 
     write_json(model)
     write_xlsx(model)

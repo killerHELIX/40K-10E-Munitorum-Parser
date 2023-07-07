@@ -1945,180 +1945,6 @@
       ]
     },
     {
-      "name": "Agents Of The Imperium",
-      "units": [
-        {
-          "name": "Callidus Assassin",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "115"
-            }
-          ]
-        },
-        {
-          "name": "Culexus Assassin",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Eversor Assassin",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Exaction Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "35"
-            },
-            {
-              "count": "10-11 models",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Imperial Navy Breachers",
-          "composition": [
-            {
-              "count": "10 models",
-              "cost": "105"
-            }
-          ]
-        },
-        {
-          "name": "Inquisitor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Inquisitor Coteaz",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Inquisitor Eisenhorn",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "65"
-            }
-          ]
-        },
-        {
-          "name": "Inquisitor Greyfax",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "65"
-            }
-          ]
-        },
-        {
-          "name": "Inquisitor Karamazov",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "130"
-            }
-          ]
-        },
-        {
-          "name": "Inquisitorial Henchmen",
-          "composition": [
-            {
-              "count": "4 Inquisitorial Acolytes",
-              "cost": "40"
-            },
-            {
-              "count": "4 Inquisitorial Acolytes, 1 Gun Servitor and 1 Mystic",
-              "cost": "60"
-            },
-            {
-              "count": "10 Inquisitorial Acolytes",
-              "cost": "100"
-            },
-            {
-              "count": "10 Inquisitorial Acolytes, 2 Gun Servitors and 2 Mystics",
-              "cost": "140"
-            },
-            {
-              "count": "Jokaero",
-              "cost": "10"
-            },
-            {
-              "count": "Daemonhost",
-              "cost": "10"
-            }
-          ]
-        },
-        {
-          "name": "Lord Inquisitor Kyria Draxus",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Rogue Trader Entourage",
-          "composition": [
-            {
-              "count": "4 models",
-              "cost": "105"
-            }
-          ]
-        },
-        {
-          "name": "Subductor Squad",
-          "composition": [
-            {
-              "count": "10-11 models",
-              "cost": "110"
-            }
-          ]
-        },
-        {
-          "name": "Vigilant Squad",
-          "composition": [
-            {
-              "count": "10-11 models",
-              "cost": "105"
-            }
-          ]
-        },
-        {
-          "name": "Vindicare Assassin",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        }
-      ],
-      "enhancements": []
-    },
-    {
       "name": "Astra Militarum",
       "units": [
         {
@@ -4216,538 +4042,6 @@
       ]
     },
     {
-      "name": "Chaos Space Marines",
-      "units": [
-        {
-          "name": "Abaddon the Despoiler",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "280"
-            }
-          ]
-        },
-        {
-          "name": "Accursed Cultists",
-          "composition": [
-            {
-              "count": "8 models",
-              "cost": "95"
-            },
-            {
-              "count": "16 models",
-              "cost": "190"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Bikers",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "95"
-            },
-            {
-              "count": "6 models",
-              "cost": "190"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Land Raider",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "255"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Lord",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Lord in Terminator Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Predator Annihilator",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "135"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Predator Destructor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "130"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Rhino",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Spawn",
-          "composition": [
-            {
-              "count": "2 models",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Terminator Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "195"
-            },
-            {
-              "count": "10 models",
-              "cost": "390"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Vindicator",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "210"
-            }
-          ]
-        },
-        {
-          "name": "Chosen",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "115"
-            },
-            {
-              "count": "10 models",
-              "cost": "230"
-            }
-          ]
-        },
-        {
-          "name": "Cultist Mob",
-          "composition": [
-            {
-              "count": "10 models",
-              "cost": "55"
-            },
-            {
-              "count": "20 models",
-              "cost": "110"
-            }
-          ]
-        },
-        {
-          "name": "Cypher",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "105"
-            }
-          ]
-        },
-        {
-          "name": "Dark Apostle",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Dark Commune",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Defiler",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "210"
-            }
-          ]
-        },
-        {
-          "name": "Exalted Champion",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Fabius Bile",
-          "composition": [
-            {
-              "count": "2 models",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Fellgor Beastmen",
-          "composition": [
-            {
-              "count": "10 models",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Forgefiend",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "165"
-            }
-          ]
-        },
-        {
-          "name": "Haarken Worldclaimer",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "120"
-            }
-          ]
-        },
-        {
-          "name": "Havocs",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "135"
-            }
-          ]
-        },
-        {
-          "name": "Helbrute",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "155"
-            }
-          ]
-        },
-        {
-          "name": "Heldrake",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "205"
-            }
-          ]
-        },
-        {
-          "name": "Heretic Astartes Daemon Prince",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "180"
-            }
-          ]
-        },
-        {
-          "name": "Heretic Astartes Daemon Prince with Wings",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "195"
-            }
-          ]
-        },
-        {
-          "name": "Huron Blackheart",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Khorne Lord of Skulls",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "480"
-            }
-          ]
-        },
-        {
-          "name": "Legionaries",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "100"
-            },
-            {
-              "count": "10 models",
-              "cost": "200"
-            }
-          ]
-        },
-        {
-          "name": "Lord Discordant on Helstalker",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "220"
-            }
-          ]
-        },
-        {
-          "name": "Lucius the Eternal",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Master of Executions",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Master of Possession",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Maulerfiend",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "155"
-            }
-          ]
-        },
-        {
-          "name": "Noctilith Crown",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "125"
-            }
-          ]
-        },
-        {
-          "name": "Noise Marines",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "85"
-            },
-            {
-              "count": "10 models",
-              "cost": "170"
-            }
-          ]
-        },
-        {
-          "name": "Obliterators",
-          "composition": [
-            {
-              "count": "2 models",
-              "cost": "160"
-            },
-            {
-              "count": "4 models",
-              "cost": "320"
-            }
-          ]
-        },
-        {
-          "name": "Possessed",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "145"
-            },
-            {
-              "count": "10 models",
-              "cost": "290"
-            }
-          ]
-        },
-        {
-          "name": "Raptors",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "95"
-            },
-            {
-              "count": "10 models",
-              "cost": "190"
-            }
-          ]
-        },
-        {
-          "name": "Sorcerer",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "60"
-            }
-          ]
-        },
-        {
-          "name": "Sorcerer in Terminator Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "90"
-            }
-          ]
-        },
-        {
-          "name": "Traitor Enforcer",
-          "composition": [
-            {
-              "count": "2 models",
-              "cost": "65"
-            }
-          ]
-        },
-        {
-          "name": "Traitor Guardsmen Squad",
-          "composition": [
-            {
-              "count": "10 models",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Vashtorr the Arkifane",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "225"
-            }
-          ]
-        },
-        {
-          "name": "Venomcrawler",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "140"
-            }
-          ]
-        },
-        {
-          "name": "Warp T alons",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "130"
-            },
-            {
-              "count": "10 models",
-              "cost": "260"
-            }
-          ]
-        },
-        {
-          "name": "Warpsmith",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        }
-      ],
-      "enhancements": [
-        {
-          "name": "Eye of Tzeentch",
-          "composition": [
-            {
-              "cost": "30"
-            }
-          ]
-        },
-        {
-          "name": "Intoxicating Elixir",
-          "composition": [
-            {
-              "cost": "15"
-            }
-          ]
-        },
-        {
-          "name": "Liber Hereticus",
-          "composition": [
-            {
-              "cost": "40"
-            }
-          ]
-        },
-        {
-          "name": "Orbs of Unlife",
-          "composition": [
-            {
-              "cost": "25"
-            }
-          ]
-        },
-        {
-          "name": "Talisman of Burning Blood",
-          "composition": [
-            {
-              "cost": "20"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Dark Angels",
       "units": [
         {
@@ -4888,7 +4182,7 @@
           ]
         },
         {
-          "name": "Ravenwing Dark T alon",
+          "name": "Ravenwing Dark Talon",
           "composition": [
             {
               "count": "1 model",
@@ -4915,7 +4209,7 @@
           ]
         },
         {
-          "name": "Ravenwing T alonmaster",
+          "name": "Ravenwing Talonmaster",
           "composition": [
             {
               "count": "1 model",
@@ -5274,7 +4568,7 @@
           ]
         },
         {
-          "name": "T allyman",
+          "name": "Tallyman",
           "composition": [
             {
               "count": "1 model",
@@ -5687,7 +4981,7 @@
           ]
         },
         {
-          "name": "T alos",
+          "name": "Talos",
           "composition": [
             {
               "count": "1 model",
@@ -5749,7 +5043,7 @@
           ]
         },
         {
-          "name": "T antalus",
+          "name": "Tantalus",
           "composition": [
             {
               "count": "1 model",
@@ -8101,1283 +7395,6 @@
       ]
     },
     {
-      "name": "Space Marines",
-      "units": [
-        {
-          "name": "Adrax Agatone",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Aggressor Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "110"
-            },
-            {
-              "count": "6 models",
-              "cost": "220"
-            }
-          ]
-        },
-        {
-          "name": "Ancient in Terminator Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "90"
-            }
-          ]
-        },
-        {
-          "name": "Apothecary Biologis",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Assault Intercessor Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "90"
-            },
-            {
-              "count": "10 models",
-              "cost": "180"
-            }
-          ]
-        },
-        {
-          "name": "Assault Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "95"
-            },
-            {
-              "count": "10 models",
-              "cost": "190"
-            }
-          ]
-        },
-        {
-          "name": "Assault Squad with Jump Packs",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "115"
-            },
-            {
-              "count": "10 models",
-              "cost": "230"
-            }
-          ]
-        },
-        {
-          "name": "Astartes Servitors",
-          "composition": [
-            {
-              "count": "4 models",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Attack Bike Squad",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "55"
-            },
-            {
-              "count": "2 models",
-              "cost": "110"
-            },
-            {
-              "count": "3 models",
-              "cost": "165"
-            }
-          ]
-        },
-        {
-          "name": "Ballistus Dreadnought",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "170"
-            }
-          ]
-        },
-        {
-          "name": "Bike Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "80"
-            },
-            {
-              "count": "6 models",
-              "cost": "160"
-            },
-            {
-              "count": "Attack Bike",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Bladeguard Ancient",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "50"
-            }
-          ]
-        },
-        {
-          "name": "Bladeguard Veteran Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "100"
-            },
-            {
-              "count": "6 models",
-              "cost": "200"
-            }
-          ]
-        },
-        {
-          "name": "Brutalis Dreadnought",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "220"
-            }
-          ]
-        },
-        {
-          "name": "Captain",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Captain in Gravis Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Captain in Phobos Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Captain in Terminator Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Captain on Bike",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Captain Sicarius",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Captain with Jump Pack",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Centurion Assault Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "175"
-            },
-            {
-              "count": "6 models",
-              "cost": "350"
-            }
-          ]
-        },
-        {
-          "name": "Centurion Devastator Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "205"
-            },
-            {
-              "count": "6 models",
-              "cost": "410"
-            }
-          ]
-        },
-        {
-          "name": "Chaplain",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Chaplain Cassius",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Chaplain in Terminator Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "90"
-            }
-          ]
-        },
-        {
-          "name": "Chaplain on Bike",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Chaplain with Jump Pack",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Chief Librarian Tigurius",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Command Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "165"
-            }
-          ]
-        },
-        {
-          "name": "Contemptor Dreadnought",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "170"
-            }
-          ]
-        },
-        {
-          "name": "Darnath Lysander",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "115"
-            }
-          ]
-        },
-        {
-          "name": "Desolation Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "170"
-            },
-            {
-              "count": "10 models",
-              "cost": "340"
-            }
-          ]
-        },
-        {
-          "name": "Devastator Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "120"
-            },
-            {
-              "count": "10 models",
-              "cost": "200"
-            }
-          ]
-        },
-        {
-          "name": "Dreadnought",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "160"
-            }
-          ]
-        },
-        {
-          "name": "Drop Pod",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Eliminator Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Eradicator Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "95"
-            },
-            {
-              "count": "6 models",
-              "cost": "190"
-            }
-          ]
-        },
-        {
-          "name": "Firestrike Servo-turrets",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            },
-            {
-              "count": "2 models",
-              "cost": "160"
-            }
-          ]
-        },
-        {
-          "name": "Gladiator Lancer",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "145"
-            }
-          ]
-        },
-        {
-          "name": "Gladiator Reaper",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "155"
-            }
-          ]
-        },
-        {
-          "name": "Gladiator Valiant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "155"
-            }
-          ]
-        },
-        {
-          "name": "Hammerfall Bunker",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "210"
-            }
-          ]
-        },
-        {
-          "name": "Heavy Intercessor Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "110"
-            },
-            {
-              "count": "10 models",
-              "cost": "220"
-            }
-          ]
-        },
-        {
-          "name": "Hellblaster Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "125"
-            },
-            {
-              "count": "10 models",
-              "cost": "250"
-            }
-          ]
-        },
-        {
-          "name": "Hunter",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Impulsor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Inceptor Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "115"
-            },
-            {
-              "count": "6 models",
-              "cost": "230"
-            }
-          ]
-        },
-        {
-          "name": "Incursor Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "90"
-            },
-            {
-              "count": "10 models",
-              "cost": "180"
-            }
-          ]
-        },
-        {
-          "name": "Infernus Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "90"
-            },
-            {
-              "count": "10 models",
-              "cost": "180"
-            }
-          ]
-        },
-        {
-          "name": "Infiltrator Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "90"
-            },
-            {
-              "count": "10 models",
-              "cost": "180"
-            }
-          ]
-        },
-        {
-          "name": "Intercessor Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "95"
-            },
-            {
-              "count": "10 models",
-              "cost": "190"
-            }
-          ]
-        },
-        {
-          "name": "Invader ATV",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Invictor T actical Warsuit",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "160"
-            }
-          ]
-        },
-        {
-          "name": "Iron Father Feirros",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "105"
-            }
-          ]
-        },
-        {
-          "name": "Ironclad Dreadnought",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "150"
-            }
-          ]
-        },
-        {
-          "name": "Judiciar",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Kayvaan Shrike",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "110"
-            }
-          ]
-        },
-        {
-          "name": "Kor\u2019sarro Khan",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Land Raider",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "275"
-            }
-          ]
-        },
-        {
-          "name": "Land Raider Crusader",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "255"
-            }
-          ]
-        },
-        {
-          "name": "Land Raider Redeemer",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "295"
-            }
-          ]
-        },
-        {
-          "name": "Land Speeder",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Land Speeder Typhoon",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            },
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Librarian",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Librarian in Phobos Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Librarian in Terminator Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "90"
-            }
-          ]
-        },
-        {
-          "name": "Librarian with Jump Pack",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Lieutenant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Lieutenant in Phobos Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "60"
-            }
-          ]
-        },
-        {
-          "name": "Lieutenant in Reiver Armour",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "65"
-            }
-          ]
-        },
-        {
-          "name": "Lieutenant with Combi-weapon",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Marneus Calgar",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "205"
-            }
-          ]
-        },
-        {
-          "name": "Outrider Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "115"
-            },
-            {
-              "count": "6 models",
-              "cost": "230"
-            },
-            {
-              "count": "Invader ATV",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Pedro Kantor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Predator Annihilator",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "130"
-            }
-          ]
-        },
-        {
-          "name": "Predator Destructor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "135"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Ancient",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Apothecary",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Captain",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "80"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Chaplain",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "65"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Company Champion",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "55"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Librarian",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Lieutenant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Primaris Techmarine",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "65"
-            }
-          ]
-        },
-        {
-          "name": "Razorback",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Redemptor Dreadnought",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "225"
-            }
-          ]
-        },
-        {
-          "name": "Reiver Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "95"
-            },
-            {
-              "count": "10 models",
-              "cost": "190"
-            }
-          ]
-        },
-        {
-          "name": "Relic Terminator Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "200"
-            },
-            {
-              "count": "10 models",
-              "cost": "400"
-            }
-          ]
-        },
-        {
-          "name": "Repulsor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "195"
-            }
-          ]
-        },
-        {
-          "name": "Repulsor Executioner",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "230"
-            }
-          ]
-        },
-        {
-          "name": "Rhino",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Roboute Guilliman",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "355"
-            }
-          ]
-        },
-        {
-          "name": "Scout Bike Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "75"
-            },
-            {
-              "count": "6 models",
-              "cost": "150"
-            }
-          ]
-        },
-        {
-          "name": "Scout Sniper Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "75"
-            },
-            {
-              "count": "10 models",
-              "cost": "150"
-            }
-          ]
-        },
-        {
-          "name": "Scout Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "70"
-            },
-            {
-              "count": "10 models",
-              "cost": "140"
-            }
-          ]
-        },
-        {
-          "name": "Sergeant Chronus",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "75"
-            }
-          ]
-        },
-        {
-          "name": "Sergeant Telion",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Stalker",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "140"
-            }
-          ]
-        },
-        {
-          "name": "Sternguard Veteran Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "105"
-            },
-            {
-              "count": "10 models",
-              "cost": "210"
-            }
-          ]
-        },
-        {
-          "name": "Storm Speeder Hailstrike",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "130"
-            }
-          ]
-        },
-        {
-          "name": "Storm Speeder Hammerstrike",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "160"
-            }
-          ]
-        },
-        {
-          "name": "Storm Speeder Thunderstrike",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "160"
-            }
-          ]
-        },
-        {
-          "name": "Stormhawk Interceptor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "165"
-            }
-          ]
-        },
-        {
-          "name": "Stormraven Gunship",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "255"
-            }
-          ]
-        },
-        {
-          "name": "Stormtalon Gunship",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "175"
-            }
-          ]
-        },
-        {
-          "name": "Suppressor Squad",
-          "composition": [
-            {
-              "count": "3 models",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "T actical Squad",
-          "composition": [
-            {
-              "count": "10 models",
-              "cost": "175"
-            }
-          ]
-        },
-        {
-          "name": "Techmarine",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "70"
-            }
-          ]
-        },
-        {
-          "name": "Terminator Assault Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "200"
-            },
-            {
-              "count": "10 models",
-              "cost": "400"
-            }
-          ]
-        },
-        {
-          "name": "Terminator Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "205"
-            },
-            {
-              "count": "10 models",
-              "cost": "410"
-            }
-          ]
-        },
-        {
-          "name": "Thunderfire Cannon",
-          "composition": [
-            {
-              "count": "2 models",
-              "cost": "90"
-            }
-          ]
-        },
-        {
-          "name": "Tor Garadon",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "100"
-            }
-          ]
-        },
-        {
-          "name": "Tyrannic War Veterans",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Uriel Ventris",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "85"
-            }
-          ]
-        },
-        {
-          "name": "Vanguard Veteran Squad",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "120"
-            },
-            {
-              "count": "10 models",
-              "cost": "240"
-            }
-          ]
-        },
-        {
-          "name": "Vanguard Veteran Squad with Jump Packs",
-          "composition": [
-            {
-              "count": "5 models",
-              "cost": "130"
-            },
-            {
-              "count": "10 models",
-              "cost": "260"
-            }
-          ]
-        },
-        {
-          "name": "Vindicator",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "205"
-            }
-          ]
-        },
-        {
-          "name": "Vulkan He\u2019stan",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "95"
-            }
-          ]
-        },
-        {
-          "name": "Whirlwind",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "150"
-            }
-          ]
-        },
-        {
-          "name": "Astraeus",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "525"
-            }
-          ]
-        },
-        {
-          "name": "Thunderhawk Gunship",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "840"
-            }
-          ]
-        }
-      ],
-      "enhancements": [
-        {
-          "name": "Adept of the Codex",
-          "composition": [
-            {
-              "cost": "20"
-            }
-          ]
-        },
-        {
-          "name": "Artificer Armour",
-          "composition": [
-            {
-              "cost": "10"
-            }
-          ]
-        },
-        {
-          "name": "Bolter Discipline",
-          "composition": [
-            {
-              "cost": "25"
-            }
-          ]
-        },
-        {
-          "name": "The Honour Vehement",
-          "composition": [
-            {
-              "cost": "15"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Space Wolves",
       "units": [
         {
@@ -10115,7 +8132,7 @@
           ]
         },
         {
-          "name": "T actical Drones",
+          "name": "Tactical Drones",
           "composition": [
             {
               "count": "4 models",
@@ -10217,7 +8234,7 @@
           ]
         },
         {
-          "name": "T a\u2019unar Supremacy Armour",
+          "name": "Ta\u2019unar Supremacy Armour",
           "composition": [
             {
               "count": "1 model",
@@ -11427,6 +9444,1989 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Chaos Space Marines",
+      "units": [
+        {
+          "name": "Abaddon the Despoiler",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "280"
+            }
+          ]
+        },
+        {
+          "name": "Accursed Cultists",
+          "composition": [
+            {
+              "count": "8 models",
+              "cost": "95"
+            },
+            {
+              "count": "16 models",
+              "cost": "190"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Bikers",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "95"
+            },
+            {
+              "count": "6 models",
+              "cost": "190"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Land Raider",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "255"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Lord",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Lord in Terminator Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Predator Annihilator",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "135"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Predator Destructor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Rhino",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Spawn",
+          "composition": [
+            {
+              "count": "2 models",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Terminator Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "195"
+            },
+            {
+              "count": "10 models",
+              "cost": "390"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Vindicator",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "210"
+            }
+          ]
+        },
+        {
+          "name": "Chosen",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "115"
+            },
+            {
+              "count": "10 models",
+              "cost": "230"
+            }
+          ]
+        },
+        {
+          "name": "Cultist Mob",
+          "composition": [
+            {
+              "count": "10 models",
+              "cost": "55"
+            },
+            {
+              "count": "20 models",
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "name": "Cypher",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "105"
+            }
+          ]
+        },
+        {
+          "name": "Dark Apostle",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Dark Commune",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Defiler",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "210"
+            }
+          ]
+        },
+        {
+          "name": "Exalted Champion",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Fabius Bile",
+          "composition": [
+            {
+              "count": "2 models",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Fellgor Beastmen",
+          "composition": [
+            {
+              "count": "10 models",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Forgefiend",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "165"
+            }
+          ]
+        },
+        {
+          "name": "Haarken Worldclaimer",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "name": "Havocs",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "135"
+            }
+          ]
+        },
+        {
+          "name": "Helbrute",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "155"
+            }
+          ]
+        },
+        {
+          "name": "Heldrake",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "205"
+            }
+          ]
+        },
+        {
+          "name": "Heretic Astartes Daemon Prince",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "180"
+            }
+          ]
+        },
+        {
+          "name": "Heretic Astartes Daemon Prince with Wings",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "195"
+            }
+          ]
+        },
+        {
+          "name": "Huron Blackheart",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Khorne Lord of Skulls",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "480"
+            }
+          ]
+        },
+        {
+          "name": "Legionaries",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "100"
+            },
+            {
+              "count": "10 models",
+              "cost": "200"
+            }
+          ]
+        },
+        {
+          "name": "Lord Discordant on Helstalker",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "220"
+            }
+          ]
+        },
+        {
+          "name": "Lucius the Eternal",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Master of Executions",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Master of Possession",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Maulerfiend",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "155"
+            }
+          ]
+        },
+        {
+          "name": "Noctilith Crown",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "125"
+            }
+          ]
+        },
+        {
+          "name": "Noise Marines",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "85"
+            },
+            {
+              "count": "10 models",
+              "cost": "170"
+            }
+          ]
+        },
+        {
+          "name": "Obliterators",
+          "composition": [
+            {
+              "count": "2 models",
+              "cost": "160"
+            },
+            {
+              "count": "4 models",
+              "cost": "320"
+            }
+          ]
+        },
+        {
+          "name": "Possessed",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "145"
+            },
+            {
+              "count": "10 models",
+              "cost": "290"
+            }
+          ]
+        },
+        {
+          "name": "Raptors",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "95"
+            },
+            {
+              "count": "10 models",
+              "cost": "190"
+            }
+          ]
+        },
+        {
+          "name": "Sorcerer",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "60"
+            }
+          ]
+        },
+        {
+          "name": "Sorcerer in Terminator Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "90"
+            }
+          ]
+        },
+        {
+          "name": "Traitor Enforcer",
+          "composition": [
+            {
+              "count": "2 models",
+              "cost": "65"
+            }
+          ]
+        },
+        {
+          "name": "Traitor Guardsmen Squad",
+          "composition": [
+            {
+              "count": "10 models",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Vashtorr the Arkifane",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "225"
+            }
+          ]
+        },
+        {
+          "name": "Venomcrawler",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "name": "Warp Talons",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "130"
+            },
+            {
+              "count": "10 models",
+              "cost": "260"
+            }
+          ]
+        },
+        {
+          "name": "Warpsmith",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Eye of Tzeentch",
+          "composition": [
+            {
+              "cost": "30"
+            }
+          ]
+        },
+        {
+          "name": "Intoxicating Elixir",
+          "composition": [
+            {
+              "cost": "15"
+            }
+          ]
+        },
+        {
+          "name": "Liber Hereticus",
+          "composition": [
+            {
+              "cost": "40"
+            }
+          ]
+        },
+        {
+          "name": "Orbs of Unlife",
+          "composition": [
+            {
+              "cost": "25"
+            }
+          ]
+        },
+        {
+          "name": "Talisman of Burning Blood",
+          "composition": [
+            {
+              "cost": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space Marines",
+      "units": [
+        {
+          "name": "Adrax Agatone",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Aggressor Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "110"
+            },
+            {
+              "count": "6 models",
+              "cost": "220"
+            }
+          ]
+        },
+        {
+          "name": "Ancient in Terminator Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "90"
+            }
+          ]
+        },
+        {
+          "name": "Apothecary Biologis",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Assault Intercessor Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "90"
+            },
+            {
+              "count": "10 models",
+              "cost": "180"
+            }
+          ]
+        },
+        {
+          "name": "Assault Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "95"
+            },
+            {
+              "count": "10 models",
+              "cost": "190"
+            }
+          ]
+        },
+        {
+          "name": "Assault Squad with Jump Packs",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "115"
+            },
+            {
+              "count": "10 models",
+              "cost": "230"
+            }
+          ]
+        },
+        {
+          "name": "Astartes Servitors",
+          "composition": [
+            {
+              "count": "4 models",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Attack Bike Squad",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "55"
+            },
+            {
+              "count": "2 models",
+              "cost": "110"
+            },
+            {
+              "count": "3 models",
+              "cost": "165"
+            }
+          ]
+        },
+        {
+          "name": "Ballistus Dreadnought",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "170"
+            }
+          ]
+        },
+        {
+          "name": "Bike Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "80"
+            },
+            {
+              "count": "6 models",
+              "cost": "160"
+            },
+            {
+              "count": "Attack Bike",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Bladeguard Ancient",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "name": "Bladeguard Veteran Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "100"
+            },
+            {
+              "count": "6 models",
+              "cost": "200"
+            }
+          ]
+        },
+        {
+          "name": "Brutalis Dreadnought",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "220"
+            }
+          ]
+        },
+        {
+          "name": "Captain",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Captain in Gravis Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Captain in Phobos Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Captain in Terminator Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Captain on Bike",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Captain Sicarius",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Captain with Jump Pack",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Centurion Assault Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "175"
+            },
+            {
+              "count": "6 models",
+              "cost": "350"
+            }
+          ]
+        },
+        {
+          "name": "Centurion Devastator Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "205"
+            },
+            {
+              "count": "6 models",
+              "cost": "410"
+            }
+          ]
+        },
+        {
+          "name": "Chaplain",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Chaplain Cassius",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Chaplain in Terminator Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "90"
+            }
+          ]
+        },
+        {
+          "name": "Chaplain on Bike",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Chaplain with Jump Pack",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Chief Librarian Tigurius",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Command Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "165"
+            }
+          ]
+        },
+        {
+          "name": "Contemptor Dreadnought",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "170"
+            }
+          ]
+        },
+        {
+          "name": "Darnath Lysander",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "115"
+            }
+          ]
+        },
+        {
+          "name": "Desolation Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "170"
+            },
+            {
+              "count": "10 models",
+              "cost": "340"
+            }
+          ]
+        },
+        {
+          "name": "Devastator Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "120"
+            },
+            {
+              "count": "10 models",
+              "cost": "200"
+            }
+          ]
+        },
+        {
+          "name": "Dreadnought",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "160"
+            }
+          ]
+        },
+        {
+          "name": "Drop Pod",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Eliminator Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Eradicator Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "95"
+            },
+            {
+              "count": "6 models",
+              "cost": "190"
+            }
+          ]
+        },
+        {
+          "name": "Firestrike Servo-turrets",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            },
+            {
+              "count": "2 models",
+              "cost": "160"
+            }
+          ]
+        },
+        {
+          "name": "Gladiator Lancer",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "145"
+            }
+          ]
+        },
+        {
+          "name": "Gladiator Reaper",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "155"
+            }
+          ]
+        },
+        {
+          "name": "Gladiator Valiant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "155"
+            }
+          ]
+        },
+        {
+          "name": "Hammerfall Bunker",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "210"
+            }
+          ]
+        },
+        {
+          "name": "Heavy Intercessor Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "110"
+            },
+            {
+              "count": "10 models",
+              "cost": "220"
+            }
+          ]
+        },
+        {
+          "name": "Hellblaster Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "125"
+            },
+            {
+              "count": "10 models",
+              "cost": "250"
+            }
+          ]
+        },
+        {
+          "name": "Hunter",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Impulsor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Inceptor Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "115"
+            },
+            {
+              "count": "6 models",
+              "cost": "230"
+            }
+          ]
+        },
+        {
+          "name": "Incursor Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "90"
+            },
+            {
+              "count": "10 models",
+              "cost": "180"
+            }
+          ]
+        },
+        {
+          "name": "Infernus Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "90"
+            },
+            {
+              "count": "10 models",
+              "cost": "180"
+            }
+          ]
+        },
+        {
+          "name": "Infiltrator Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "90"
+            },
+            {
+              "count": "10 models",
+              "cost": "180"
+            }
+          ]
+        },
+        {
+          "name": "Intercessor Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "95"
+            },
+            {
+              "count": "10 models",
+              "cost": "190"
+            }
+          ]
+        },
+        {
+          "name": "Invader ATV",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Invictor Tactical Warsuit",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "160"
+            }
+          ]
+        },
+        {
+          "name": "Iron Father Feirros",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "105"
+            }
+          ]
+        },
+        {
+          "name": "Ironclad Dreadnought",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "150"
+            }
+          ]
+        },
+        {
+          "name": "Judiciar",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Kayvaan Shrike",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "name": "Kor\u2019sarro Khan",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Land Raider",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "275"
+            }
+          ]
+        },
+        {
+          "name": "Land Raider Crusader",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "255"
+            }
+          ]
+        },
+        {
+          "name": "Land Raider Redeemer",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "295"
+            }
+          ]
+        },
+        {
+          "name": "Land Speeder",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Land Speeder Typhoon",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            },
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Librarian",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Librarian in Phobos Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Librarian in Terminator Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "90"
+            }
+          ]
+        },
+        {
+          "name": "Librarian with Jump Pack",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Lieutenant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Lieutenant in Phobos Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "60"
+            }
+          ]
+        },
+        {
+          "name": "Lieutenant in Reiver Armour",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "65"
+            }
+          ]
+        },
+        {
+          "name": "Lieutenant with Combi-weapon",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Marneus Calgar",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "205"
+            }
+          ]
+        },
+        {
+          "name": "Outrider Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "115"
+            },
+            {
+              "count": "6 models",
+              "cost": "230"
+            },
+            {
+              "count": "Invader ATV",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Pedro Kantor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Predator Annihilator",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "name": "Predator Destructor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "135"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Ancient",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Apothecary",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Captain",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Chaplain",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "65"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Company Champion",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Librarian",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Lieutenant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Primaris Techmarine",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "65"
+            }
+          ]
+        },
+        {
+          "name": "Razorback",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Redemptor Dreadnought",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "225"
+            }
+          ]
+        },
+        {
+          "name": "Reiver Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "95"
+            },
+            {
+              "count": "10 models",
+              "cost": "190"
+            }
+          ]
+        },
+        {
+          "name": "Relic Terminator Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "200"
+            },
+            {
+              "count": "10 models",
+              "cost": "400"
+            }
+          ]
+        },
+        {
+          "name": "Repulsor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "195"
+            }
+          ]
+        },
+        {
+          "name": "Repulsor Executioner",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "230"
+            }
+          ]
+        },
+        {
+          "name": "Rhino",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Roboute Guilliman",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "355"
+            }
+          ]
+        },
+        {
+          "name": "Scout Bike Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "75"
+            },
+            {
+              "count": "6 models",
+              "cost": "150"
+            }
+          ]
+        },
+        {
+          "name": "Scout Sniper Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "75"
+            },
+            {
+              "count": "10 models",
+              "cost": "150"
+            }
+          ]
+        },
+        {
+          "name": "Scout Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "70"
+            },
+            {
+              "count": "10 models",
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "name": "Sergeant Chronus",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Sergeant Telion",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Stalker",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "name": "Sternguard Veteran Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "105"
+            },
+            {
+              "count": "10 models",
+              "cost": "210"
+            }
+          ]
+        },
+        {
+          "name": "Storm Speeder Hailstrike",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "name": "Storm Speeder Hammerstrike",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "160"
+            }
+          ]
+        },
+        {
+          "name": "Storm Speeder Thunderstrike",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "160"
+            }
+          ]
+        },
+        {
+          "name": "Stormhawk Interceptor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "165"
+            }
+          ]
+        },
+        {
+          "name": "Stormraven Gunship",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "255"
+            }
+          ]
+        },
+        {
+          "name": "Stormtalon Gunship",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "175"
+            }
+          ]
+        },
+        {
+          "name": "Suppressor Squad",
+          "composition": [
+            {
+              "count": "3 models",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Tactical Squad",
+          "composition": [
+            {
+              "count": "10 models",
+              "cost": "175"
+            }
+          ]
+        },
+        {
+          "name": "Techmarine",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "name": "Terminator Assault Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "200"
+            },
+            {
+              "count": "10 models",
+              "cost": "400"
+            }
+          ]
+        },
+        {
+          "name": "Terminator Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "205"
+            },
+            {
+              "count": "10 models",
+              "cost": "410"
+            }
+          ]
+        },
+        {
+          "name": "Thunderfire Cannon",
+          "composition": [
+            {
+              "count": "2 models",
+              "cost": "90"
+            }
+          ]
+        },
+        {
+          "name": "Tor Garadon",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "name": "Tyrannic War Veterans",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Uriel Ventris",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Vanguard Veteran Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "120"
+            },
+            {
+              "count": "10 models",
+              "cost": "240"
+            }
+          ]
+        },
+        {
+          "name": "Vanguard Veteran Squad with Jump Packs",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "130"
+            },
+            {
+              "count": "10 models",
+              "cost": "260"
+            }
+          ]
+        },
+        {
+          "name": "Vindicator",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "205"
+            }
+          ]
+        },
+        {
+          "name": "Vulkan He\u2019stan",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "95"
+            }
+          ]
+        },
+        {
+          "name": "Whirlwind",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "150"
+            }
+          ]
+        },
+        {
+          "name": "Astraeus",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "525"
+            }
+          ]
+        },
+        {
+          "name": "Thunderhawk Gunship",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "840"
+            }
+          ]
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Adept of the Codex",
+          "composition": [
+            {
+              "cost": "20"
+            }
+          ]
+        },
+        {
+          "name": "Artificer Armour",
+          "composition": [
+            {
+              "cost": "10"
+            }
+          ]
+        },
+        {
+          "name": "Bolter Discipline",
+          "composition": [
+            {
+              "cost": "25"
+            }
+          ]
+        },
+        {
+          "name": "The Honour Vehement",
+          "composition": [
+            {
+              "cost": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agents Of The Imperium",
+      "units": [
+        {
+          "name": "Callidus Assassin",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "115"
+            }
+          ]
+        },
+        {
+          "name": "Culexus Assassin",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "85"
+            }
+          ]
+        },
+        {
+          "name": "Eversor Assassin",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Exaction Squad",
+          "composition": [
+            {
+              "count": "5 models",
+              "cost": "35"
+            },
+            {
+              "count": "10-11 models",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Imperial Navy Breachers",
+          "composition": [
+            {
+              "count": "10 models",
+              "cost": "105"
+            }
+          ]
+        },
+        {
+          "name": "Inquisitor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "55"
+            }
+          ]
+        },
+        {
+          "name": "Inquisitor Coteaz",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Inquisitor Eisenhorn",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "65"
+            }
+          ]
+        },
+        {
+          "name": "Inquisitor Greyfax",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "65"
+            }
+          ]
+        },
+        {
+          "name": "Inquisitor Karamazov",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "name": "Inquisitorial Henchmen",
+          "composition": [
+            {
+              "count": "4 Inquisitorial Acolytes",
+              "cost": "40"
+            },
+            {
+              "count": "4 Inquisitorial Acolytes, 1 Gun Servitor and 1 Mystic",
+              "cost": "60"
+            },
+            {
+              "count": "10 Inquisitorial Acolytes",
+              "cost": "100"
+            },
+            {
+              "count": "10 Inquisitorial Acolytes, 2 Gun Servitors and 2 Mystics",
+              "cost": "140"
+            },
+            {
+              "count": "Jokaero",
+              "cost": "10"
+            },
+            {
+              "count": "Daemonhost",
+              "cost": "10"
+            }
+          ]
+        },
+        {
+          "name": "Lord Inquisitor Kyria Draxus",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "75"
+            }
+          ]
+        },
+        {
+          "name": "Rogue Trader Entourage",
+          "composition": [
+            {
+              "count": "4 models",
+              "cost": "105"
+            }
+          ]
+        },
+        {
+          "name": "Subductor Squad",
+          "composition": [
+            {
+              "count": "10-11 models",
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "name": "Vigilant Squad",
+          "composition": [
+            {
+              "count": "10-11 models",
+              "cost": "105"
+            }
+          ]
+        },
+        {
+          "name": "Vindicare Assassin",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "80"
+            }
+          ]
+        }
+      ],
+      "enhancements": []
     }
   ]
 }
