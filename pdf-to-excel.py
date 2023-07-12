@@ -302,6 +302,8 @@ if __name__ == "__main__":
     model = parse_unit_compositions(model)
     model = move_faction_to_end("Chaos Space Marines", model)
     model = move_faction_to_end("Space Marines", model)
+    model = move_faction_to_end("Chaos Knights", model)
+    model = move_faction_to_end("Imperial Knights", model)
     model = move_faction_to_end("Agents Of The Imperium", model)
 
     write_json(model)

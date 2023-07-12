@@ -3832,216 +3832,6 @@
       ]
     },
     {
-      "name": "Chaos Knights",
-      "units": [
-        {
-          "name": "Knight Abominant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "455"
-            }
-          ]
-        },
-        {
-          "name": "Knight Desecrator",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "450"
-            }
-          ]
-        },
-        {
-          "name": "Knight Despoiler",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "470"
-            }
-          ]
-        },
-        {
-          "name": "Knight Rampager",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "395"
-            }
-          ]
-        },
-        {
-          "name": "Knight Tyrant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "555"
-            }
-          ]
-        },
-        {
-          "name": "War Dog Brigand",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "150"
-            }
-          ]
-        },
-        {
-          "name": "War Dog Executioner",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "135"
-            }
-          ]
-        },
-        {
-          "name": "War Dog Huntsman",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "140"
-            }
-          ]
-        },
-        {
-          "name": "War Dog Karnivore",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "160"
-            }
-          ]
-        },
-        {
-          "name": "War Dog Stalker",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "135"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Acastus Knight Asterius",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "840"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Acastus Knight Porphyrion",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "740"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Cerastus Knight Acheron",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "465"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Cerastus Knight Atrapos",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "465"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Cerastus Knight Castigator",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "480"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Cerastus Knight Lancer",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "465"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Questoris Knight Magaera",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "465"
-            }
-          ]
-        },
-        {
-          "name": "Chaos Questoris Knight Styrix",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "505"
-            }
-          ]
-        },
-        {
-          "name": "War Dog Moirax",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "170"
-            }
-          ]
-        }
-      ],
-      "enhancements": [
-        {
-          "name": "Lord of Dread",
-          "composition": [
-            {
-              "cost": "35"
-            }
-          ]
-        },
-        {
-          "name": "Aura of Terror",
-          "composition": [
-            {
-              "cost": "25"
-            }
-          ]
-        },
-        {
-          "name": "The Traitor\u2019s Mark",
-          "composition": [
-            {
-              "cost": "30"
-            }
-          ]
-        },
-        {
-          "name": "Panoply of the Cursed Knight",
-          "composition": [
-            {
-              "cost": "40"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Dark Angels",
       "units": [
         {
@@ -5680,233 +5470,6 @@
           "composition": [
             {
               "cost": "30"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Imperial Knights",
-      "units": [
-        {
-          "name": "Armiger Helverin",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "145"
-            }
-          ]
-        },
-        {
-          "name": "Armiger Warglaive",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "140"
-            }
-          ]
-        },
-        {
-          "name": "Canis Rex",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "490"
-            }
-          ]
-        },
-        {
-          "name": "Knight Castellan",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "565"
-            }
-          ]
-        },
-        {
-          "name": "Knight Crusader",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "475"
-            }
-          ]
-        },
-        {
-          "name": "Knight Errant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "430"
-            }
-          ]
-        },
-        {
-          "name": "Knight Gallant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "400"
-            }
-          ]
-        },
-        {
-          "name": "Knight Paladin",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "450"
-            }
-          ]
-        },
-        {
-          "name": "Knight Preceptor",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "430"
-            }
-          ]
-        },
-        {
-          "name": "Knight Valiant",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "565"
-            }
-          ]
-        },
-        {
-          "name": "Knight Warden",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "480"
-            }
-          ]
-        },
-        {
-          "name": "Acastus Knight Asterius",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "840"
-            }
-          ]
-        },
-        {
-          "name": "Acastus Knight Porphyrion",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "745"
-            }
-          ]
-        },
-        {
-          "name": "Armiger Moirax",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "170"
-            }
-          ]
-        },
-        {
-          "name": "Cerastus Knight Acheron",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "445"
-            }
-          ]
-        },
-        {
-          "name": "Cerastus Knight Atrapos",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "440"
-            }
-          ]
-        },
-        {
-          "name": "Cerastus Knight Castigator",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "485"
-            }
-          ]
-        },
-        {
-          "name": "Cerastus Knight Lancer",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "495"
-            }
-          ]
-        },
-        {
-          "name": "Questoris Knight Magaera",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "450"
-            }
-          ]
-        },
-        {
-          "name": "Questoris Knight Styrix",
-          "composition": [
-            {
-              "count": "1 model",
-              "cost": "490"
-            }
-          ]
-        }
-      ],
-      "enhancements": [
-        {
-          "name": "Banner of Macharius Triumphant",
-          "composition": [
-            {
-              "cost": "30"
-            }
-          ]
-        },
-        {
-          "name": "Mysterious Guardian",
-          "composition": [
-            {
-              "cost": "35"
-            }
-          ]
-        },
-        {
-          "name": "Mythic Hero",
-          "composition": [
-            {
-              "cost": "25"
-            }
-          ]
-        },
-        {
-          "name": "Revered Knight",
-          "composition": [
-            {
-              "cost": "20"
-            }
-          ]
-        },
-        {
-          "name": "Unyielding Paragon",
-          "composition": [
-            {
-              "cost": "40"
             }
           ]
         }
@@ -11249,6 +10812,443 @@
           "composition": [
             {
               "cost": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Knights",
+      "units": [
+        {
+          "name": "Knight Abominant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "455"
+            }
+          ]
+        },
+        {
+          "name": "Knight Desecrator",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "450"
+            }
+          ]
+        },
+        {
+          "name": "Knight Despoiler",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "470"
+            }
+          ]
+        },
+        {
+          "name": "Knight Rampager",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "395"
+            }
+          ]
+        },
+        {
+          "name": "Knight Tyrant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "555"
+            }
+          ]
+        },
+        {
+          "name": "War Dog Brigand",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "150"
+            }
+          ]
+        },
+        {
+          "name": "War Dog Executioner",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "135"
+            }
+          ]
+        },
+        {
+          "name": "War Dog Huntsman",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "name": "War Dog Karnivore",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "160"
+            }
+          ]
+        },
+        {
+          "name": "War Dog Stalker",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "135"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Acastus Knight Asterius",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "840"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Acastus Knight Porphyrion",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "740"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Cerastus Knight Acheron",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "465"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Cerastus Knight Atrapos",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "465"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Cerastus Knight Castigator",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "480"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Cerastus Knight Lancer",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "465"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Questoris Knight Magaera",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "465"
+            }
+          ]
+        },
+        {
+          "name": "Chaos Questoris Knight Styrix",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "505"
+            }
+          ]
+        },
+        {
+          "name": "War Dog Moirax",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "170"
+            }
+          ]
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Lord of Dread",
+          "composition": [
+            {
+              "cost": "35"
+            }
+          ]
+        },
+        {
+          "name": "Aura of Terror",
+          "composition": [
+            {
+              "cost": "25"
+            }
+          ]
+        },
+        {
+          "name": "The Traitor\u2019s Mark",
+          "composition": [
+            {
+              "cost": "30"
+            }
+          ]
+        },
+        {
+          "name": "Panoply of the Cursed Knight",
+          "composition": [
+            {
+              "cost": "40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Imperial Knights",
+      "units": [
+        {
+          "name": "Armiger Helverin",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "145"
+            }
+          ]
+        },
+        {
+          "name": "Armiger Warglaive",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "name": "Canis Rex",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "490"
+            }
+          ]
+        },
+        {
+          "name": "Knight Castellan",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "565"
+            }
+          ]
+        },
+        {
+          "name": "Knight Crusader",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "475"
+            }
+          ]
+        },
+        {
+          "name": "Knight Errant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "430"
+            }
+          ]
+        },
+        {
+          "name": "Knight Gallant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "400"
+            }
+          ]
+        },
+        {
+          "name": "Knight Paladin",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "450"
+            }
+          ]
+        },
+        {
+          "name": "Knight Preceptor",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "430"
+            }
+          ]
+        },
+        {
+          "name": "Knight Valiant",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "565"
+            }
+          ]
+        },
+        {
+          "name": "Knight Warden",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "480"
+            }
+          ]
+        },
+        {
+          "name": "Acastus Knight Asterius",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "840"
+            }
+          ]
+        },
+        {
+          "name": "Acastus Knight Porphyrion",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "745"
+            }
+          ]
+        },
+        {
+          "name": "Armiger Moirax",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "170"
+            }
+          ]
+        },
+        {
+          "name": "Cerastus Knight Acheron",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "445"
+            }
+          ]
+        },
+        {
+          "name": "Cerastus Knight Atrapos",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "440"
+            }
+          ]
+        },
+        {
+          "name": "Cerastus Knight Castigator",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "485"
+            }
+          ]
+        },
+        {
+          "name": "Cerastus Knight Lancer",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "495"
+            }
+          ]
+        },
+        {
+          "name": "Questoris Knight Magaera",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "450"
+            }
+          ]
+        },
+        {
+          "name": "Questoris Knight Styrix",
+          "composition": [
+            {
+              "count": "1 model",
+              "cost": "490"
+            }
+          ]
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Banner of Macharius Triumphant",
+          "composition": [
+            {
+              "cost": "30"
+            }
+          ]
+        },
+        {
+          "name": "Mysterious Guardian",
+          "composition": [
+            {
+              "cost": "35"
+            }
+          ]
+        },
+        {
+          "name": "Mythic Hero",
+          "composition": [
+            {
+              "cost": "25"
+            }
+          ]
+        },
+        {
+          "name": "Revered Knight",
+          "composition": [
+            {
+              "cost": "20"
+            }
+          ]
+        },
+        {
+          "name": "Unyielding Paragon",
+          "composition": [
+            {
+              "cost": "40"
             }
           ]
         }
